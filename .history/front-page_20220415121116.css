@@ -1,0 +1,10 @@
+.type{
+    text-align: center;
+    
+}
+body{
+    min-height: 200px;
+}
+.main-div{
+    background-color: black;
+}

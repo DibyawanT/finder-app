@@ -16,7 +16,7 @@ function typewriter2(){
     arrayTwo[0].substring(0,textPosition) + "<span>\u25ae</span>";
 
     if(textPosition++ != arrayTwo[0].length){
-        setTimeout(typewriter2,150);
+        setTimeout(typewriter2,speed);
     }
 }
 
@@ -26,4 +26,4 @@ function nextpage(){
 window.addEventListener('load',typewriter2);
 window.addEventListener('load',typewriter);
 
-setTimeout(nextpage,6000);
+//setTimeout(nextpage,6000);

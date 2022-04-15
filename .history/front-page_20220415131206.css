@@ -1,0 +1,16 @@
+.type{
+    left: 50%;
+   position: absolute;
+   top: 50%;
+   transform: translate(0,-50%);
+   font-size: 30px;
+   color: antiquewhite;
+    
+}
+body{
+    height: 100px;
+    width: 100%;
+    background: rgb(203,108,230);
+    background: linear-gradient(to right, rgba(203,108,230,1) 0%, rgba(40,210,234,1) 45%);
+    object-fit:contain;
+}

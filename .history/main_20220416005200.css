@@ -1,0 +1,56 @@
+.textoverflow {
+    white-space: nowrap;
+    width: 80%;
+    height: 4vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    padding: 1vh;
+    margin-top: -1vh;
+}  
+body{
+	padding: 0; 
+	margin: 0;
+	background-color: #0d0d0d;
+	color:#FFFFFF;
+	background-position:top center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+} 
+.contentarea{
+	width: 94%;
+	height: auto;
+	padding: 0 0 0 0;
+	margin: 0 3% 0 3%;
+}   
+.content-left{
+	width: 20%;
+	height: auto;
+	padding: 3% 0 0 0;
+	margin: 0;
+	float: left;
+}
+.viewdbt{
+	color: #f57a24;
+	font-size: 30px;
+	padding: 0 0 1% 0;
+	margin: 0;
+	font-family: 'Raleway';
+	font-weight: 600;
+	text-decoration: none;
+}
+.topnav {
+	width:80%;
+	padding:0;
+	font-family: 'Raleway';
+}
+
+ul.topnav {
+     padding: 0;
+    margin: 4vh 0 0 0;
+    font-size: 1em;
+    line-height: 0.5em;
+    height: 700px;
+    overflow-y: hidden;
+}

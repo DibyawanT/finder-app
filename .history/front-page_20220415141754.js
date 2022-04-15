@@ -17,7 +17,7 @@ function typewriter2(){
 
     if(textPosition++ != arrayTwo[0].length){
         setTimeout(typewriter2,150);
-    }
+    }git 
 }
 
 function nextpage(){
@@ -26,4 +26,4 @@ function nextpage(){
 window.addEventListener('load',typewriter2);
 window.addEventListener('load',typewriter);
 
-setTimeout(nextpage,6000);
+//setTimeout(nextpage,6000);

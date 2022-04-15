@@ -1,0 +1,26 @@
+.textoverflow {
+    white-space: nowrap;
+    width: 80%;
+    height: 4vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    padding: 1vh;
+    margin-top: -1vh;
+}  
+body{
+	padding: 0; 
+	margin: 0;
+	background-color: #0d0d0d;
+	color:#FFFFFF;
+	background-position:top center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+} 
+.contentarea{
+	width: 94%;
+	height: auto;
+	padding: 0 0 0 0;
+	margin: 0 3% 0 3%;
+}

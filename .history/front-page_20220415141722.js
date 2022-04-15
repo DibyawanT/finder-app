@@ -26,4 +26,4 @@ function nextpage(){
 window.addEventListener('load',typewriter2);
 window.addEventListener('load',typewriter);
 
-setTimeout(nextpage,6000);
+//setTimeout(nextpage,6000);
